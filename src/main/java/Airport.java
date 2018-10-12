@@ -28,4 +28,8 @@ public class Airport {
         this.hangar.remove(0);
     }
 
+    public Flight addFlight(Plane plane, FlightNumber flightNumber) {
+        Flight newflight = new Flight(plane, flightNumber);
+        return newflight;
+    }
 }

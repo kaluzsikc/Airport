@@ -72,5 +72,4 @@ public class PlaneTest {
         plane1.removePassengers();
         assertEquals(0, plane1.getNumberOfPassengers());
     }
-
 }

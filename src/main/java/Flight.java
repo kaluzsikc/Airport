@@ -1,16 +1,16 @@
 public class Flight {
 
-    private PlaneType planeType;
+    private Plane plane;
     private FlightNumber flightNumber;
 
-    public Flight(PlaneType planeType, FlightNumber flightNumber){
+    public Flight(Plane plane, FlightNumber flightNumber){
 
-        this.planeType = planeType;
+        this.plane = plane;
         this.flightNumber = flightNumber;
     }
 
-    public PlaneType getPlaneType() {
-        return planeType;
+    public Plane getPlaneType() {
+        return plane;
     }
 
     public FlightNumber getFlightNumber() {
