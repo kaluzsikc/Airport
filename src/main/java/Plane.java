@@ -25,4 +25,12 @@ public class Plane {
     public int getNumberOfPassengers() {
         return passengers.size();
     }
+
+    public int getMaxCapacity() {
+        return planeType.getCapacity();
+    }
+
+//    public PlaneType getCapacity() {
+//        return planeType.getCapacity();
+//    }
 }

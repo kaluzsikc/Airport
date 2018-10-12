@@ -1,7 +1,7 @@
 public enum FlightNumber {
 
     A123("LONDON"),
-    B123("SEICHELLES"),
+    B123("SEYCHELLES"),
     C123("BARCELONA"),
     D123("DUBAI"),
     E123("LISBON");
