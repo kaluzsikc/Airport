@@ -30,12 +30,15 @@ public class Plane {
         return planeType.getCapacity();
     }
 
-
     public void addPassenger(Passenger passenger) {
-        this.passengers.add(passenger);
+        if(this.passengers.size() < planeType.getCapacity()) {
+            this.passengers.add(passenger);
+        }
     }
 
     public void removePassengers() {
         this.passengers.clear();
     }
+
+
 }
