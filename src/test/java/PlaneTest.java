@@ -72,4 +72,18 @@ public class PlaneTest {
         plane1.removePassengers();
         assertEquals(0, plane1.getNumberOfPassengers());
     }
+
+    @Test
+    public void availableSeats() {
+        plane2.addPassenger(passenger);
+        plane2.addPassenger(passenger);
+        plane2.addPassenger(passenger);
+        assertEquals(7, plane2.getAvailableSeats());
+
+        plane1.addPassenger(passenger);
+        plane1.addPassenger(passenger);
+        plane1.addPassenger(passenger);
+        plane1.addPassenger(passenger);
+        assertEquals(1, plane1.getAvailableSeats());
+    }
 }

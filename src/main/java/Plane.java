@@ -41,4 +41,9 @@ public class Plane {
     }
 
 
+    public int getAvailableSeats() {
+        int availableSeats = planeType.getCapacity() - getNumberOfPassengers();
+        return availableSeats;
+
+    }
 }

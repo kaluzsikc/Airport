@@ -29,7 +29,8 @@ public class Airport {
     }
 
     public Flight addFlight(Plane plane, FlightNumber flightNumber) {
-        Flight newflight = new Flight(plane, flightNumber);
-        return newflight;
+        Flight newFlight = new Flight(plane, flightNumber);
+        return newFlight;
     }
+
 }
