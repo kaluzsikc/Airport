@@ -11,7 +11,6 @@ public class Airport {
         this.code = code;
     }
 
-
     public String getCode() {
         return code;
     }
@@ -32,5 +31,12 @@ public class Airport {
         Flight newFlight = new Flight(plane, flightNumber);
         return newFlight;
     }
+
+    public void sellTicket(Flight flight, Passenger passenger) {
+        if (flight.getPlaneType().getAvailableSeats() >= flight.countPassengers()) {
+            flight.addPassenger(passenger);
+        }
+    }
+
 
 }

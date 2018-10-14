@@ -5,12 +5,14 @@ public class Plane {
     private Airline airline;
     private PlaneType planeType;
     private ArrayList<Passenger> passengers;
+    private int availableSeats;
 
     public Plane (Airline airline, PlaneType planeType){
 
         this.airline = airline;
         this.planeType = planeType;
         this.passengers = new ArrayList<>();
+        this.availableSeats = availableSeats;
     }
 
 
@@ -30,9 +32,15 @@ public class Plane {
         return planeType.getCapacity();
     }
 
+    public int getAvailableSeats() {
+         this.availableSeats = planeType.getCapacity() - getNumberOfPassengers();
+        return availableSeats;
+    }
+
     public void addPassenger(Passenger passenger) {
-        if(this.passengers.size() < planeType.getCapacity()) {
+        if(this.passengers.size() < this.availableSeats) {
             this.passengers.add(passenger);
+            this.availableSeats -=1;
         }
     }
 
@@ -40,10 +48,4 @@ public class Plane {
         this.passengers.clear();
     }
 
-
-    public int getAvailableSeats() {
-        int availableSeats = planeType.getCapacity() - getNumberOfPassengers();
-        return availableSeats;
-
-    }
 }

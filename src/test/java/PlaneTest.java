@@ -78,12 +78,14 @@ public class PlaneTest {
         plane2.addPassenger(passenger);
         plane2.addPassenger(passenger);
         plane2.addPassenger(passenger);
+        assertEquals(3, plane2.getNumberOfPassengers());
         assertEquals(7, plane2.getAvailableSeats());
 
         plane1.addPassenger(passenger);
         plane1.addPassenger(passenger);
         plane1.addPassenger(passenger);
         plane1.addPassenger(passenger);
+        assertEquals(4, plane1.getNumberOfPassengers());
         assertEquals(1, plane1.getAvailableSeats());
     }
 }

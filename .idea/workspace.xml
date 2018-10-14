@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40c7e4a4-dde1-4f26-a66b-e4f8dbe0a0cf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Airport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Airport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Flight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Plane.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/AirportTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AirportTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FlightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FlightTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PlaneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PlaneTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -35,24 +36,24 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
-          <entry key="java" value="21" />
+          <entry key="java" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="21" />
+          <entry key="JAVA" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="java" value="3725" />
+          <entry key="java" value="5100" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3725" />
+          <entry key="JAVA" value="5100" />
           <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
@@ -69,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Plane.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+            <state relative-caret-position="360">
+              <caret line="40" column="55" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
               <folding>
                 <element signature="e#370#371#0" expanded="true" />
                 <element signature="e#397#398#0" expanded="true" />
@@ -83,8 +84,8 @@
                 <element signature="e#547#548#0" expanded="true" />
                 <element signature="e#583#584#0" expanded="true" />
                 <element signature="e#629#630#0" expanded="true" />
-                <element signature="e#848#849#0" expanded="true" />
-                <element signature="e#887#888#0" expanded="true" />
+                <element signature="e#871#872#0" expanded="true" />
+                <element signature="e#910#911#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,8 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PlaneTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="80" column="45" lean-forward="true" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
+            <state relative-caret-position="346">
+              <caret line="87" column="54" selection-start-line="87" selection-start-column="54" selection-end-line="87" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,8 +106,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/PlaneType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
+            <state relative-caret-position="247">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#283#284#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,8 +118,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Flight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            <state relative-caret-position="150">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="e#285#286#0" expanded="true" />
                 <element signature="e#312#313#0" expanded="true" />
@@ -123,6 +127,11 @@
                 <element signature="e#389#390#0" expanded="true" />
                 <element signature="e#441#442#0" expanded="true" />
                 <element signature="e#475#476#0" expanded="true" />
+                <element signature="e#495#496#0" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#624#625#0" expanded="true" />
+                <element signature="e#695#696#0" expanded="true" />
+                <element signature="e#714#715#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,28 +147,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/FlightTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#252#253#0" expanded="true" />
-                <element signature="e#278#279#0" expanded="true" />
-                <element signature="e#417#418#0" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#532#533#0" expanded="true" />
-                <element signature="e#599#600#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Airport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+            <state relative-caret-position="394">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="e#254#255#0" expanded="true" />
                 <element signature="e#281#282#0" expanded="true" />
@@ -174,17 +165,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/AirportTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state relative-caret-position="118">
+              <caret line="68" column="30" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#231#232#0" expanded="true" />
                 <element signature="e#252#253#0" expanded="true" />
                 <element signature="e#380#381#0" expanded="true" />
                 <element signature="e#410#411#0" expanded="true" />
+                <marker date="1539551680491" expanded="true" signature="2978:3072" ph="..." />
               </folding>
             </state>
           </provider>
@@ -508,16 +500,17 @@
         <option value="$PROJECT_DIR$/src/main/java/FlightNumber.java" />
         <option value="$PROJECT_DIR$/src/main/java/Flight.java" />
         <option value="$PROJECT_DIR$/src/test/java/FlightTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/AirportTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Airport.java" />
         <option value="$PROJECT_DIR$/src/test/java/PlaneTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Airport.java" />
         <option value="$PROJECT_DIR$/src/main/java/Plane.java" />
+        <option value="$PROJECT_DIR$/src/test/java/AirportTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="79" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
+    <option name="width" value="1361" />
     <option name="height" value="832" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -575,7 +568,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539518670275" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539551999821" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -590,22 +583,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PlaneTest.availableSeats">
-    <configuration name="AirportTest.canAddPassengersToNewCreateFlights" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AirportTest.canSellTicketsIfEnoughAvailableSeats">
+    <configuration name="AirportTest.canNotSellTicketsIfNoAvailableSeats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Airport_test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AirportTest" />
-      <option name="METHOD_NAME" value="canAddPassengersToNewCreateFlights" />
+      <option name="METHOD_NAME" value="canNotSellTicketsIfNoAvailableSeats" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AirportTest.canCreateFlights" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AirportTest.canSellTicketsIfEnoughAvailableSeats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Airport_test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AirportTest" />
-      <option name="METHOD_NAME" value="canCreateFlights" />
+      <option name="METHOD_NAME" value="canSellTicketsIfEnoughAvailableSeats" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -638,19 +631,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.AirportTest.canNotSellTicketsIfNoAvailableSeats" />
+      <item itemvalue="JUnit.AirportTest.canSellTicketsIfEnoughAvailableSeats" />
       <item itemvalue="JUnit.All in Airport_test" />
-      <item itemvalue="JUnit.AirportTest.canCreateFlights" />
-      <item itemvalue="JUnit.AirportTest.canAddPassengersToNewCreateFlights" />
       <item itemvalue="JUnit.PlaneTest" />
       <item itemvalue="JUnit.PlaneTest.availableSeats" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AirportTest.canSellTicketsIfEnoughAvailableSeats" />
+        <item itemvalue="JUnit.AirportTest.canNotSellTicketsIfNoAvailableSeats" />
         <item itemvalue="JUnit.PlaneTest.availableSeats" />
         <item itemvalue="JUnit.PlaneTest" />
         <item itemvalue="JUnit.All in Airport_test" />
-        <item itemvalue="JUnit.AirportTest.canCreateFlights" />
-        <item itemvalue="JUnit.AirportTest.canAddPassengersToNewCreateFlights" />
       </list>
     </recent_temporary>
   </component>
@@ -668,42 +661,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_Airport_test - 2018.10.12 at 23h 46m 27s.xml">
-      <configuration name="All in Airport_test" configurationId="JUnit" />
+    <history-entry file="AirportTest_canSellTicketsIfEnoughAvailableSeats - 2018.10.14 at 21h 56m 45s.xml">
+      <configuration name="AirportTest.canSellTicketsIfEnoughAvailableSeats" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Airport_test - 2018.10.12 at 23h 48m 02s.xml">
-      <configuration name="All in Airport_test" configurationId="JUnit" />
+    <history-entry file="AirportTest_canSellTicketsIfEnoughAvailableSeats - 2018.10.14 at 22h 02m 04s.xml">
+      <configuration name="AirportTest.canSellTicketsIfEnoughAvailableSeats" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Airport_test - 2018.10.13 at 00h 08m 30s.xml">
-      <configuration name="All in Airport_test" configurationId="JUnit" />
+    <history-entry file="AirportTest_canSellTicketsIfEnoughAvailableSeats - 2018.10.14 at 22h 02m 25s.xml">
+      <configuration name="AirportTest.canSellTicketsIfEnoughAvailableSeats" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AirportTest_canCreateFlights - 2018.10.13 at 00h 10m 33s.xml">
-      <configuration name="AirportTest.canCreateFlights" configurationId="JUnit" />
+    <history-entry file="AirportTest_canSellTicketsIfEnoughAvailableSeats - 2018.10.14 at 22h 02m 33s.xml">
+      <configuration name="AirportTest.canSellTicketsIfEnoughAvailableSeats" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Airport_test - 2018.10.13 at 00h 28m 52s.xml">
-      <configuration name="All in Airport_test" configurationId="JUnit" />
+    <history-entry file="AirportTest_canSellTicketsIfEnoughAvailableSeats - 2018.10.14 at 22h 02m 40s.xml">
+      <configuration name="AirportTest.canSellTicketsIfEnoughAvailableSeats" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AirportTest_canCreateFlights - 2018.10.13 at 00h 41m 16s.xml">
-      <configuration name="AirportTest.canCreateFlights" configurationId="JUnit" />
+    <history-entry file="AirportTest_canSellTicketsIfEnoughAvailableSeats - 2018.10.14 at 22h 02m 47s.xml">
+      <configuration name="AirportTest.canSellTicketsIfEnoughAvailableSeats" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AirportTest_canCreateFlights - 2018.10.13 at 00h 41m 45s.xml">
-      <configuration name="AirportTest.canCreateFlights" configurationId="JUnit" />
+    <history-entry file="AirportTest_canSellTicketsIfEnoughAvailableSeats - 2018.10.14 at 22h 04m 11s.xml">
+      <configuration name="AirportTest.canSellTicketsIfEnoughAvailableSeats" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AirportTest_canCreateFlights - 2018.10.13 at 00h 51m 01s.xml">
-      <configuration name="AirportTest.canCreateFlights" configurationId="JUnit" />
+    <history-entry file="AirportTest_canSellTicketsIfEnoughAvailableSeats - 2018.10.14 at 22h 04m 17s.xml">
+      <configuration name="AirportTest.canSellTicketsIfEnoughAvailableSeats" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AirportTest_canAddPassengersToNewCreateFlights - 2018.10.13 at 00h 52m 02s.xml">
-      <configuration name="AirportTest.canAddPassengersToNewCreateFlights" configurationId="JUnit" />
+    <history-entry file="AirportTest_canSellTicketsIfEnoughAvailableSeats - 2018.10.14 at 22h 04m 54s.xml">
+      <configuration name="AirportTest.canSellTicketsIfEnoughAvailableSeats" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AirportTest_canCreateFlights - 2018.10.13 at 00h 52m 05s.xml">
-      <configuration name="AirportTest.canCreateFlights" configurationId="JUnit" />
+    <history-entry file="AirportTest_canSellTicketsIfEnoughAvailableSeats - 2018.10.14 at 22h 13m 53s.xml">
+      <configuration name="AirportTest.canSellTicketsIfEnoughAvailableSeats" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="832" extended-state="0" />
+    <frame x="79" y="23" width="1361" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19527897" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19484457" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -712,13 +705,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.33783785" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.33783785" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4985694" visible="true" weight="0.32027027" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4985694" weight="0.32027027" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50143063" side_tool="true" weight="0.32027027" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32972974" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32972974" />
@@ -733,7 +726,7 @@
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.19527897" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19484457" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -742,16 +735,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32972974" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.33783785" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32972974" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4985694" weight="0.32027027" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50143063" side_tool="true" weight="0.32027027" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32972974" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32972974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -765,6 +758,18 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/AirportTest.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/PassengerTest.java">
@@ -786,6 +791,20 @@
     <entry file="file://$PROJECT_DIR$/out/production/classes/Plane.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FlightNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Airline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Passenger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -795,8 +814,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FlightTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        <state relative-caret-position="272">
+          <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#252#253#0" expanded="true" />
@@ -809,24 +828,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Airline.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FlightNumber.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/PlaneTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        <state relative-caret-position="346">
+          <caret line="87" column="54" selection-start-line="87" selection-start-column="54" selection-end-line="87" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PlaneType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#283#284#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Flight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        <state relative-caret-position="150">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="e#285#286#0" expanded="true" />
             <element signature="e#312#313#0" expanded="true" />
@@ -834,28 +866,48 @@
             <element signature="e#389#390#0" expanded="true" />
             <element signature="e#441#442#0" expanded="true" />
             <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AirportTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Plane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state relative-caret-position="360">
+          <caret line="40" column="55" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Assert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="631" selection-start-line="631" selection-end-line="631" />
+          <folding>
+            <element signature="e#24178#24179#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Airport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        <state relative-caret-position="394">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="e#254#255#0" expanded="true" />
             <element signature="e#281#282#0" expanded="true" />
@@ -869,38 +921,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PlaneType.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/AirportTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PlaneTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="80" column="45" lean-forward="true" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
+        <state relative-caret-position="118">
+          <caret line="68" column="30" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Plane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
-          <folding>
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
-            <element signature="e#887#888#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <marker date="1539551680491" expanded="true" signature="2978:3072" ph="..." />
           </folding>
         </state>
       </provider>

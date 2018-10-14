@@ -7,6 +7,7 @@ public class AirportTest {
 
     Airport airport;
     Plane plane;
+    Plane plane2;
     Flight flight;
     Passenger passenger;
 
@@ -14,8 +15,9 @@ public class AirportTest {
     public void before() {
         airport = new Airport("LTN");
         plane = new Plane(Airline.LUFTHANSA, PlaneType.AIRBUS319);
+        plane2 = new Plane(Airline.EASYJET, PlaneType.AIRBUS319);
         flight = new Flight(plane, FlightNumber.A123);
-        passenger = new Passenger("Bob");
+        passenger = new Passenger ("Bob");
     }
 
     @Test
@@ -54,7 +56,7 @@ public class AirportTest {
 
     @Test
     public void canAddPassengersToNewCreateFlights() {
-        airport.addFlight(plane, FlightNumber.A123);
+        airport.addFlight(plane, FlightNumber.B123);
         plane.addPassenger(passenger);
         assertEquals( FlightNumber.A123,flight.getFlightNumber());
         assertEquals("LONDON", flight.getFlightDestination());
@@ -63,5 +65,14 @@ public class AirportTest {
         assertEquals( 1, flight.getPlaneType().getNumberOfPassengers());
     }
 
+    @Test
+    public void canSellTicketsIfEnoughAvailableSeats() {
+        airport.addFlight(plane2, FlightNumber.A123).removePassengers();
+        airport.sellTicket(flight, passenger);
+        airport.sellTicket(flight, passenger);
+        airport.sellTicket(flight, passenger);
+        assertEquals(3, flight.countPassengers());
+        assertEquals(2, flight.getPlaneType().getAvailableSeats());
+    }
 
 }
